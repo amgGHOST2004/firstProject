@@ -1,0 +1,52 @@
+// // if/else statements
+
+// const firstName = 'Sena';
+// const age = 19;
+// const isStudent = false;
+// const school = 'university';
+
+// // if(firstName === 'Sena'){
+// //     console.log('Merhaba' + firstName);
+// // }
+
+// // if(age===19){
+// //     console.log('Yaşınız 19');
+// // }
+
+// // if(isStudent){
+// //     console.log('Merhaba öğrenci');
+// // }
+// // else{
+// //     console.log("Merhaba işler nasıl");
+// // }
+
+// // if(age>=18){
+// //     if(school == 'university' || school == 'highschool'){
+// //     console.log('ehliyet alabilirsiniz.');
+// //     }
+// //     else{
+// //         console.log('eğitim durumunuz yetersiz');
+// //     }
+// // }
+
+
+// if(age > 0 && age < 12){
+//     console.log(`${firstName} is a child`);
+// }
+// else if(age >=13 && age <=19){
+//     console.log(`${firstName} is a teenager`);
+// }
+
+// // else{
+// //     console.log(`${firstName} is a adult`);
+// // }
+
+// //undefined
+// // let id ='123123'
+
+// // if(typeof id !== 'undefined'){
+// //     console.log('id: '+id);
+// // }
+// // else{
+// //     console.log('no id');
+// // }

@@ -1,0 +1,50 @@
+Demo : Loops
+
+// /* 
+//     Demo Loops : Sayı Tahmin Oyunu
+
+//     1-10 arasında rastgele sayı üretilen bir sayıyı aşağı yukarı ifadeleri ile buldurmaya çalışın.
+//     ** puanlama yapın.
+//     ** kullanıcı kaç kerede bileceğini belirtebilirsiniz.
+// */
+
+// const number = Math.floor(Math.random()*10+1);
+// let tahmins=prompt('başlangıç değerinizi giriniz 5 hakkınız vardır iyi değerlendirin :)');
+// let puan=0;
+// const tahminfirst=tahmins;
+
+// for(let i=0;i<=5;i++){
+//     if(tahminfirst==number){
+//         puan+=100;
+//         console.log('doğru bildiniz sayı : '+number+' puanınız :'+puan);
+//         break;
+//     }
+//     if(tahmins!=number){
+//         var tahmin = prompt('yukari mı assagi mı');
+//     }
+//     if(tahmin=='yukari'){
+//         tahmins++;
+//         console.log('şuan ki sayınız : '+tahmins);
+//         console.log('---------------------------');
+//         puan+=20;
+//     }
+//     else if(tahmin=='assagi'){
+//         tahmins--;
+//         console.log('şuan ki sayınız : '+tahmins);
+//         console.log('---------------------------');
+//         puan+=20;
+//    }
+//     if(tahmins==number){
+//         console.log('sayıyı bildiniz sayı : '+number+' puanınız : '+puan);
+//         break;
+//     }
+//     else if(i<5){
+//         console.log('yanlış tahmin tekrar dene sayınız : '+tahmins);
+//         console.log('---------------------------');
+//         puan-=15;
+//     }
+//     else{
+//         console.log('bilemediniz sayı : '+number+" puanınız : "+puan);
+//     }
+// }
+
