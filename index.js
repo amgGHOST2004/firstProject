@@ -44,6 +44,7 @@ function paraCek(hesap,miktar){
 
 }
 
+//test
 paraCek(hesapA,2000);
 paraCek(hesapA,1000);
 // paraCek(hesapA,2000);
