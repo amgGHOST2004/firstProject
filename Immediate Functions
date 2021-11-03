@@ -1,0 +1,17 @@
+// Immediate Functions
+
+// (function(){
+
+// })();
+
+// (function(){
+
+// }());
+
+
+// (function(name){
+//     var days = ['Sunday','Monday','Tuesday','Wednesday','thursday','Friday','Saturday'];
+//     var today = new Date();
+//     var msg = 'welcome '+name+ ' Today is '+days[today.getDay()];
+//     console.log(msg);
+// }('Çınar'));

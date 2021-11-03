@@ -1,0 +1,21 @@
+// Call, Apply & Bind dersi
+
+// var welcome = function(a,b) {
+//     console.log('Welcome ' + this.name+'. Are you interested in '+a+' and '+b);
+// }
+
+// var yigit = {name : 'yigit'};
+// var ada = {name: 'ada'};
+
+
+// welcome.call(yigit,'asp.net','angular');
+// welcome.call(ada,'c#','css');
+
+// welcome.apply(yigit,['asp.net','angular']);
+// welcome.apply(ada,['c#','css']);
+
+// welcomeYigit = welcome.bind(yigit);
+// welcomeYigit('asp.net','angular');
+
+// welcomeAda = welcome.bind(ada);
+// welcomeAda('c#','css');

@@ -1,0 +1,64 @@
+// Demo : Arrays
+
+// "Bmw,Mercedes,Opel,Mazda" elemanlarına sahip bir dizi oluşturun.
+var araba = ['Bmw','Mercedes','Opel','Mazda'];
+console.log(araba);
+// Dizi kaç elemanlıdır ?
+console.log(araba.length);
+// Dizinin ilk ve son elemanı nedir ?
+console.log(araba[0]+' ve '+araba[araba.length-1]);
+// "Renault" değerini dizinin sonunda ekleyin.
+araba[araba.length]='Renault';
+console.log(araba);
+// "Toyota" değerini dizinin başına ekleyin.
+araba.unshift('Toyota');
+console.log(araba);
+// "Renault" değerini siliniz.
+araba.pop('Renault');
+console.log(araba);
+// "Toyota" değerini siliniz.
+araba.shift('Toyota');
+console.log(araba);
+// Dizi elemanlarını ters çevirin
+console.log(araba.reverse());
+// Dizi elemanlarını alfabetik olarak sıralayın.
+console.log(araba.sort());
+// [1,2,5,80] dizisini sıralayın.
+var sayi = [1,2,5,80,15];
+
+function compar(a,b){
+    if(a>b) return 1;
+    if(a==b) return 0;
+    if(a<b) return -1;
+}
+console.log(sayi.sort(compar));
+// "Opel" değeri dizinin bir elemanımıdır ?
+console.log(araba.indexOf('Opel'));
+console.log(araba.includes('Opel'));
+//var str = "Chevrolet,Dacia" ifadesini diziye çeviriniz.
+var str = "Chevrolet,Dacia";
+var arabax = str.split(',');
+var araba2 = arabax;
+console.log(arabax);
+// Oluşturulan 2 dizinin elemanlarını başka dizi ile birleştirin.
+var karma = araba.concat(arabax);
+console.log(karma);
+// Oluşturulan diziden son 2 elemanı siliniz.
+console.log(araba2.splice(2,0));
+
+/*
+ Aşağıda verilen elemanları bir dizi içerisinde saklayınız.
+ studentA : Yiğit Bilgi 2010
+ studentB : Sena Turan  1999
+ studentC : Ahmet Turan 1998
+ */
+var studentA = ['Yiğit','bilgi',2010];
+var studentB = ['Sena','Turan',1999];
+var studentC = ['Ahmet','Turan',1998];
+
+var studens = [studentA,studentB,studentC];
+
+console.log(studens);
+console.log(studens[0][0],studens[0][1],studens[0][2]);
+console.log(studens[1][0],studens[1][1],studens[1][2]);
+console.log(studens[2][0],studens[2][1],studens[2][2]);

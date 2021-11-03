@@ -1,0 +1,31 @@
+// Selecting Elements
+
+// *** Single Elements
+//document.getElementById(); kullanılır.
+
+// let val;
+
+// val = document.getElementById('header');
+// val = document.getElementById('header').id;
+// val = document.getElementById('header').className;
+
+// val = document.getElementById('header');
+// val = val.id;
+// val = val.className;
+
+// val.style.fontSize='45px';
+// val.style.color='red';
+// val.style.fontWeight='bold';
+// val.style.display='none';
+
+// val = document.getElementById('header').innerHTML="<b>SEA</b>";
+
+// console.log(val);
+
+//document.querySelector();
+
+// console.log(document.querySelector('#header'));
+// console.log(document.querySelector('.header'));
+// console.log(document.querySelector('h1'));
+// document.querySelector('h1').style.color='red';
+// document.querySelector('h1').className='deneme2';

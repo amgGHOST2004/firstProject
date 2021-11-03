@@ -1,0 +1,29 @@
+// Functions
+
+function yashesapla(dogumYili){
+    return 2018 - dogumYili;
+}
+
+let ageAda = yashesapla(2012);
+let ageYigit = yashesapla(2010);
+let ageCinar = yashesapla(2017);
+
+console.log(ageAda);
+console.log(ageYigit);
+console.log(ageCinar);
+
+function emekligeKacYilKaldi(dogumYili,isim){
+    let yas = yashesapla(dogumYili);
+    let emeklilik = 65 - yas;
+
+if(emeklilik>0){
+    console.log(`${isim} emekli olmana ${emeklilik} yıl kaldı`);
+}
+else{
+    console.log('Zaten emekli oldunuz');
+}
+}
+
+emekligeKacYilKaldi(2012,'Ada');
+emekligeKacYilKaldi(2010,'Yiğit');
+emekligeKacYilKaldi(1950,'Çınar');

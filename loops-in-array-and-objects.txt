@@ -1,0 +1,67 @@
+Loops in Array & Objects
+
+// let cars = ['Bmw','Mercedes','Toyota'];
+// let peope = [
+//     {firstName : 'Ada', lastName : 'Bilgi'},
+//     {firstName : 'Yiğit', lastName : 'Bilgi'},
+//     {firstName : 'Çınar', lastName : 'Turan'}
+// ];
+
+// Arrays
+
+// for(let i =0; i<cars.length;i++){
+//     console.log(cars[i]);
+// }
+
+// objects
+
+// for(let i=0; i<peope.length;i++){
+//     console.log(peope[i].firstName);
+// }ad
+
+
+// for-in
+
+// Arrays
+
+// for(let i in cars){
+//     console.log(`İndex : ${i} Value : ${cars[i]}`);
+// }
+
+// objects
+
+//  for(let i in peope){
+//      console.log(`İndex : ${i} Value : ${peope[i].firstName}`);
+//  }
+
+// foreach
+
+// Arrays
+
+// cars.forEach(function(item){
+//     console.log(item)
+// });
+
+// objects
+
+// peope.forEach(function(item){
+//     console.log(item.firstName);
+// });
+
+
+
+// map : returns an array
+
+// let val = peope.map(function(item){
+//     return item.firstName + ' ' + item.lastName;
+// });
+
+// console.log(val);
+
+// let numbers = [1,5,6,8,10];
+
+// let num = numbers.map(function(n){
+//     return n*n;
+// });
+
+// console.log(num);

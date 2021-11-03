@@ -1,0 +1,32 @@
+// Creating Elements
+
+// create element
+
+// const li = document.createElement('p');
+
+
+// add class
+// li.className="deneme";
+// li.id="deneriz";
+// li.textContent="bomba";
+
+// attribute
+// li.setAttribute('title', 'new item');
+// li.setAttribute('data-id','5');
+
+// text node
+// const text = document.createTextNode('new item');
+// li.appendChild(text);
+
+// const a = document.createElement('a');
+// a.setAttribute('href','#');
+// a.className="deneme";
+// a.innerHTML='<p class="deneme"></p>';
+
+// append
+// li.appendChild(a);
+
+// append li to ul
+// document.querySelector('#header').appendChild(li);
+
+// console.log(li);
